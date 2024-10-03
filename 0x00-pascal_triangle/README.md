@@ -4,7 +4,7 @@ Pascal's triangle is an arrangement of binomial coefficients in triangular form.
 
 Generally, we can use Pascal's triangle to find the coefficients of binomial expansion, to find the probability of heads and tails in a toss, in combinations of certain things, etc.
 
-![pascal_triangle](pascals-triangle-1622524728.png)
+![pascal_triangle](pascals-triangle.png)
 
 ## What is Pascal's Triangle Used For?
 Pascals triangle can be used for various purposes in mathematics. It is used in the binomial expansion of a polynomial, in probability, to find the number of combinations, and can be used to find the Fibonacci series. Pascal's triangle is a very useful tool and has various properties that can be useful in various aspects of mathematics.
