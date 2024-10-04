@@ -18,7 +18,10 @@ def pascal_triangle(n):
         # Start the list (row of triangle) with 1
         new_row = [1]
         for col in range(1, row):
-            new_row.append(pascal_list[row - 1][col - 1] + pascal_list[row - 1][col])
+            new_row.append(
+                pascal_list[row - 1][col - 1] +
+                pascal_list[row - 1][col]
+                )
 
         # End the list (row of triangle) with 1
         new_row.append(1)
