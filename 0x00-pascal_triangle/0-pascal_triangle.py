@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Pascal Module that have one function that return the pascal traingle"""
 
 
 def pascal_triangle(n):
