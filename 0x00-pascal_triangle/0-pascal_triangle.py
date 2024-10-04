@@ -24,6 +24,7 @@ def pascal_triangle(n):
 
         # End the list (row of triangle) with 1
         new_row.append(1)
+        # Append the completed row to pascal triangle
         pascal_list.append(new_row)
 
     return pascal_list
