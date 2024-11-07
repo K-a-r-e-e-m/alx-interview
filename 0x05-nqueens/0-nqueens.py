@@ -17,6 +17,7 @@ if int(sys.argv[1]) < 4:
 
 n = int(sys.argv[1])
 
+
 def queens(n, i=0, a=[], b=[], c=[]):
     """ find possible positions """
     if i < n:
@@ -38,5 +39,6 @@ def solve(n):
         print(k)
         k = []
         i = 0
+
 
 solve(n)
