@@ -2,17 +2,16 @@
 
 const request = require('request');
 
-request('https://swapi-api.alx-tools.com/api/films/' + process.argv[2], function (err, res, body) {
+request('https://swapi-api.hbtn.io/api/films/' + process.argv[2], function (err, res, body) {
   if (err) throw err;
-  const charcters = JSON.parse(body).charcters;
-  exactOrder(charcters, 0);
+  const actors = JSON.parse(body).characters;
+  exactOrder(actors, 0);
 });
-
-const exactOrder = (charcters, i) => {
-  if (i === charcters.length) return;
-  request(charcters[i], function (err, res, body) {
+const exactOrder = (actors, x) => {
+  if (x === actors.length) return;
+  request(actors[x], function (err, res, body) {
     if (err) throw err;
     console.log(JSON.parse(body).name);
-    exactOrder(charcters, i + 1);
+    exactOrder(actors, x + 1);
   });
 };
